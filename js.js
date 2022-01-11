@@ -66,7 +66,7 @@ function demo3() {
     let i = 0;
     while (x>0){
         x++;
-        if (checkSTN(x)){
+        if (x%2==0){
             document.writeln(x);
             i++;
         }
